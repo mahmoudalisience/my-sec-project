@@ -1,0 +1,161 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background: #352f5b;
+    color: #fff;
+}
+
+h1 {
+    background: linear-gradient(to top, rgb(98, 131, 146), rgb(211, 251, 211, 0.3));
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 20px;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid red;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    /* From https://css.glass */
+    background: rgba(128, 227, 224, 0.35);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(6.1px);
+    border: 1px solid rgba(84, 197, 194, 0.49);
+    border-bottom: 3px solid #fff;
+}
+
+
+
+
+.icon:hover {
+    font-size: 26px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+p {
+    font-size: 23px;
+    color: rgb(131, 11, 171);
+    font-family: 'Lucida Sans';
+}
+
+.icon-star-full,
+.icon-bin {
+    opacity: 0.4;
+}
+
+.icon-star-full:hover {
+    color: orange;
+    opacity: 1;
+}
+
+.icon-bin {
+    margin-right: 10px;
+    font-size: 27px;
+}
+
+.icon-bin:hover {
+    color: rgba(216, 223, 223, 0.881);
+    opacity: 1;
+
+}
+
+.icon-angry {
+    color: rgb(220, 253, 4);
+    font-size: 24px;
+}
+
+.icon-angry:hover {
+    color: #a92b2b;
+}
+
+.icon-bin:hover {
+    color: black;
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+form {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+input {
+    padding: 10px 20px;
+    border-radius: 6px;
+    width: 35vw;
+    font-size: 21px;
+    text-align: center;
+}
+
+button {
+    all: unset;
+}
+
+.icon-compass {
+    position: relative;
+    font-size: 35px;
+    color: #fff;
+    margin-left: 16px;
+    top: 9px;
+
+}
+
+.icon-compass:hover {
+    font-size: 40px;
+    transition: 1ms;
+    cursor: pointer;
+    color: #4cba1d;
+}
+
+.icon-heart {
+    font-size: 23px;
+    color: #a92b2b;
+
+
+}
+
+.icon-heart:hover {
+    font-size: 25px;
+    transition: 0.2s;
+    cursor: pointer;
+
+}
+
+.finish {
+    text-decoration: line-through;
+    text-decoration-style: wavy;
+}
+
+
+
+.dn {
+    display: none;
+}
+
+.orange {
+    color: orange;
+    opacity: 1;
+}
